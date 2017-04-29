@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+
+    <job>
+        <name>ConFirmOrder</name>
+        <group>THGroup</group>
+        <description>虚拟订单自动确认操作,操作时限为发货后三天</description>
+        <job-type>MGTasks.ConFirmOrder, MGTasks</job-type>
+        <durable>true</durable>
+        <recover>false</recover>
+    </job>
+
+    <trigger>
+      <!--<simple>
+        <name>ConFirmOrderTrigger</name>
+        <group>THGroup</group>
+        <description>虚拟订单自动确认操作,操作时限为发货后三天</description>
+        <job-name>ConFirmOrder</job-name>
+        <job-group>THGroup</job-group>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>10</repeat-interval>
+      </simple>-->
+      <cron>
+        <name>ConFirmOrderTrigger</name>
+        <group>THGroup</group>
+        <description>虚拟订单自动确认操作,操作时限为发货后三天</description>
+        <job-name>ConFirmOrder</job-name>
+        <job-group>THGroup</job-group>
+        <!--<start-time>2015-01-22T00:00:00+08:00</start-time>-->
+        <cron-expression>0 0 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <job>
+      <name>SecondTask</name>
+      <group>THGroup1</group>
+      <description>虚拟订单自动确认操作,操作时限为发货后三天</description>
+      <job-type>MGTasks.SecondTask, MGTasks</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <trigger>
+      <cron>
+        <name>SecondTaskTrigger</name>
+        <group>THGroup1</group>
+        <description>虚拟订单自动确认操作,操作时限为发货后三天</description>
+        <job-name>SecondTask</job-name>
+        <job-group>THGroup1</job-group>
+        <!--<start-time>2015-01-22T00:00:00+08:00</start-time>-->
+        <cron-expression>0 0 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>
