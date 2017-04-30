@@ -2,6 +2,8 @@ package com.map.baidumap;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.os.Handler;
+import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -11,22 +13,36 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     public LocationClient mLocationClient = null;
-    public BDLocationListener myListener = new MyLocationListener();
+    public BDLocationListener myListener = null;
     List<String> Permissions = new ArrayList<String>();
     TextView textView;
+    public static final int UPDATE_TEXT = 1;
+
+    private Handler handler = new Handler(){
+        public void handleMessage(Message msg){
+            switch(msg.what){
+                case UPDATE_TEXT:
+                    textView.setText(msg.obj.toString());
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        myListener = new MyLocationListener(handler);
         Log.d("","注册监听函数.......");
         mLocationClient = new LocationClient(getApplicationContext());
         //声明LocationClient类
@@ -48,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         option.setCoorType("bd09ll");
         //可选，默认gcj02，设置返回的定位结果坐标系
 
-        int span=5000;
+        int span=60000;
         option.setScanSpan(span);
         //可选，默认0，即仅定位一次，设置发起定位请求的间隔需要大于等于1000ms才是有效的
 
@@ -96,11 +112,11 @@ public class MainActivity extends AppCompatActivity {
             String[] Permission = Permissions.toArray(new String[Permissions.size()]);
             ActivityCompat.requestPermissions(MainActivity.this,Permission,1);
         }else{
-            Log.d("定位","定位直接启动了.......");
             RequireLocation();
         }
     }
     private void RequireLocation(){
+        Toast.makeText(MainActivity.this,"定位启动",Toast.LENGTH_SHORT).show();
         mLocationClient.start();
     }
 
@@ -123,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                             return;
                         }
                     }
-                    Log.d("定位","获取权限后,定位启动了.......");
+                    Toast.makeText(MainActivity.this,"获取权限",Toast.LENGTH_SHORT).show();
                     RequireLocation();
                 } else {
                     Toast.makeText(MainActivity.this, "未知错误", Toast.LENGTH_SHORT).show();
@@ -134,4 +150,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mLocationClient.stop();
+    }
+
 }

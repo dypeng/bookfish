@@ -1,5 +1,7 @@
 package com.map.baidumap;
 
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 
 import com.baidu.location.BDLocation;
@@ -13,6 +15,10 @@ import java.util.List;
  */
 
 public class MyLocationListener implements BDLocationListener {
+    private Handler handler=null;
+    public MyLocationListener(Handler handle){
+        handler=handle;
+    }
     @Override
     public void onReceiveLocation(BDLocation location) {
         //获取定位结果
@@ -103,6 +109,15 @@ public class MyLocationListener implements BDLocationListener {
         }
 
         Log.i("BaiduLocationApiDem", sb.toString());
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Message message = new Message();
+                message.what=MainActivity.UPDATE_TEXT;
+                message.obj=sb.toString();
+                handler.sendMessage(message);
+            }
+        }).start();
     }
 
     @Override

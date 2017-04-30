@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\99f322858de529476ad90fc70d17de3bb4d24d66\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b707e0f939b776e5c6b3f8454dbc0f6508384b5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\f63ac94a1e08f6eee30c08def32549bb71e8ca58\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-23e14d73b2aba74904016070f16a0a5ccdea467e.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\2c1e4ae81ca9eadae20ccfc6d9b3ffef73efdae6\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-22d14257abb59d2088ac2bf372ca3eef546750d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javawriter-2.1.1-5a3c2febc61613aebef043f7123a482b58e7ad6a.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\junit-4.12-ffd2421f83b06a0f2086e394f3643f8dc2e5c971.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\21a7780e908b06f31252a7edf3b3572bbe1e2c8f\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b03ad60867e66dd4a5f668aca321432a922cc33c.jar" />
+    </item>
+    <item
+        jar="D:\Users\dypeng\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.3.1-4ba57349409af7098fa8ec2624c70c3ab8c57517.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\e4d7b9396602e7875cf43d248dd9c6d4b087f4f2\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-c47044f3e972682589a3ab7f0adc7c878522da91.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\jsr305-2.0.1-6baef70e3eb4ad372d1bdb0a9fcdc7a6a73c0d62.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\4c449e346513fb41c8bbcc5f970fe454e42aa345\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-abb2badc1b42af9c28c5fcde373cf37a31b862d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\38534374acfddce855c79b7e90c79174cbaf1cdc\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-22fe9d14e2aa546c28c804e0b9d398eb2acd1b32.jar" />
+    </item>
+    <item
+        jar="D:\bookfish\baidumap\app\libs\BaiduLBS_Android.jar"
+        revision="25.0.2"
+        sha1="496b98cbed4b210c84a2a064442080522c4b9817">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\BaiduLBS_Android-0908cb779525ce06c0f10d5e4f12e2164a833f43.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\f33ac84a45ee2b448a5dff60ee1901587733d6ae\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-44aab66fc377c070ee331b7710234c23e7f37f77.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\e1d1d3e203d2d6694e26a908b0cbc3f9a6eb6688\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a0e77e499f8d2a8b778b4c43ccfe21b52f3fae8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-library-1.3-2f056d718881aec0df1b6b056f9b84c8b8dd021b.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\8e8b222b98466d1ee5f29fd3a428fedf9a664694\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9c86a7c7f9e684052201cdb8959036062c498eb4.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.annotation-api-1.2-a20c5b11c9662fc69a4648bb599d4a98df58de99.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\fab6b3245ff3c2a1fdb88b27631ee69d9a7a03d8\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-a0ced867c8f0549c4391ffd0c41a0283c3ff439f.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.inject-1-c2d7b49b9de213cdd7c9eb0ef222b232cf3a77d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\15d94dd40d937e7603af9e3df1ad6f62cb5d42dc\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-de9d0d9c380e667238192263bb0fbba294b25e12.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\5ff22a80169c914b03e2ffb5706741eaf2fa89d8\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-bf3787e729cd937c16a129b6ac13289c38c50007.jar" />
+    </item>
+    <item
+        jar="D:\Users\dypeng\AppData\Local\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-031ff8df4b477bb09eb2c58eca5db62a3cd24fc0.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\7b7d34596f89aae460531d6b71723ae78fafefc2\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-303a80b4bfd59f8e70ae2f215c2b19fd5ccd3fb9.jar" />
+    </item>
+    <item
+        jar="D:\Users\dypeng\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-b98209386d5ca88ec4ce2472d8053ba32192056e.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-core-1.3-6097f6412bd446530defe98f8e03a9450027d173.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.android\build-cache\779408a11e70be4f3c1d0d9218ee05a04226e6c5\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ad34ce1ad787e21d2af6bffd7deedb8e1e9e1b14.jar" />
+    </item>
+    <item
+        jar="D:\Users\dypeng\AppData\Local\Android\sdk\platforms\android-25\android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-8c949ddc09bde25df5be6652199ff8d9d0487ba7.jar" />
+    </item>
+    <item
+        jar="C:\Users\dypeng\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="D:\bookfish\baidumap\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-integration-1.3-f6000bc4ac7dde6ed1f9c8f48f0bcd9f5c3401b9.jar" />
+    </item>
+
+</items>
